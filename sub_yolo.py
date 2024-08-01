@@ -1,8 +1,8 @@
-#******
-#filename: mqtt_yolo_detection.py
-#How to run: python mqtt_yolo_detection.py
-#dev: YunK
-#*******
+******
+filename: mqtt_yolo_detection.py
+How to run: python mqtt_yolo_detection.py
+dev: YunK
+*******
 
 import paho.mqtt.client as mqtt
 import cv2
@@ -74,3 +74,4 @@ except Exception as e:
 
 # 메시지 루프 시작
 client.loop_forever()
+
